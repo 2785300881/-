@@ -15,9 +15,9 @@ body{font-family:sans-serif;text-align:center;padding:40px 20px;background:#f5f7
 <div class="box">
 <h2>📱 请在浏览器中打开</h2>
 <!-- 🔴 第1个要改的地方：这里显示网址 -->
-<div class="url">https://你的域名.netlify.app</div>
+<div class="url">https://2785300881.netlify.app</div>
 <!-- 🔴 第2个要改的地方：按钮跳转的网址 -->
-<button class="btn" onclick="window.location.href='https://你的域名.netlify.app'">点击打开</button>
+<button class="btn" onclick="window.location.href='https://2785300881.netlify.app'">点击打开</button>
 
 <div class="tip">
 <strong>如果无法打开：</strong><br>
