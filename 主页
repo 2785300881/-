@@ -30,7 +30,7 @@ body{font-family:sans-serif;text-align:center;padding:40px 20px;background:#f5f7
 <script>
 // 🔴 第3个要改的地方：自动跳转的网址
 if(!/micromessenger|qq\//i.test(navigator.userAgent.toLowerCase())){
-    window.location.href='https://你的域名.netlify.app';
+    window.location.href='https://2785300881.netlify.app';
 }
 </script>
 </body>
