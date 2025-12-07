@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>请在浏览器中打开</title>  
+<style>
+body{font-family:sans-serif;text-align:center;padding:40px 20px;background:#f5f7fa}
+.box{background:white;padding:30px;border-radius:12px;max-width:350px;margin:0 auto;box-shadow:0 5px 15px rgba(0,0,0,0.1)}
+.url{background:#f0f0f0;padding:12px;margin:20px 0;border-radius:6px;word-break:break-all;font-size:14px}
+.btn{background:#07c160;color:white;padding:14px 35px;border:none;border-radius:8px;font-size:16px;cursor:pointer;margin:10px}
+.tip{color:#666;margin-top:25px;padding:15px;background:#f8f9fa;border-radius:8px;font-size:14px;line-height:1.6}
+</style>
+</head>
+<body>
+<div class="box">
+<h2>📱 请在浏览器中打开</h2>
+<!-- 🔴 第1个要改的地方：这里显示网址 -->
+<div class="url">https://你的域名.netlify.app</div>
+<!-- 🔴 第2个要改的地方：按钮跳转的网址 -->
+<button class="btn" onclick="window.location.href='https://你的域名.netlify.app'">点击打开</button>
+
+<div class="tip">
+<strong>如果无法打开：</strong><br>
+1. 点击右上角 <strong>•••</strong><br>
+2. 选择"在浏览器中打开"<br>
+3. 在浏览器中访问
+</div>
+</div>
+
+<script>
+// 🔴 第3个要改的地方：自动跳转的网址
+if(!/micromessenger|qq\//i.test(navigator.userAgent.toLowerCase())){
+    window.location.href='https://你的域名.netlify.app';
+}
+</script>
+</body>
+</html>
